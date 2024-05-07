@@ -1,0 +1,10 @@
+^C:\@RIPCODE\FBX-SDK\FBX-EXMAPLE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/@ripcode/fbx-sdk -BC:/@ripcode/fbx-sdk/build --check-stamp-file C:/@ripcode/fbx-sdk/build/fbx-exmaple/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

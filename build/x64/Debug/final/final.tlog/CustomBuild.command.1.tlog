@@ -1,0 +1,20 @@
+^C:\@RIPCODE\FBX-SDK\BUILD\CMAKEFILES\87EF64628CB4A9B8E2291DF780FC3088\FINAL.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "--- ---- Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\@RIPCODE\FBX-SDK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/@ripcode/fbx-sdk -BC:/@ripcode/fbx-sdk/build --check-stamp-file C:/@ripcode/fbx-sdk/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,5 @@
+C:/@ripcode/fbx-sdk/build/CMakeFiles/final.dir
+C:/@ripcode/fbx-sdk/build/CMakeFiles/FinalMessage.dir
+C:/@ripcode/fbx-sdk/build/CMakeFiles/ALL_BUILD.dir
+C:/@ripcode/fbx-sdk/build/CMakeFiles/ZERO_CHECK.dir
+C:/@ripcode/fbx-sdk/build/fbx-exmaple/CMakeFiles/fbx-example.dir

@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/@ripcode/fbx-sdk/fbx-exmaple/CMakeLists.txt
+  CMake is re-running because C:/@ripcode/fbx-sdk/build/fbx-exmaple/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/@ripcode/fbx-sdk/fbx-exmaple/CMakeLists.txt'
+    is newer than 'C:/@ripcode/fbx-sdk/build/fbx-exmaple/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+  CMake Error at fbx-exmaple/CMakeLists.txt:8 (set_target_properties):
+  -- Configuring incomplete, errors occurred!
+    set_target_properties called with incorrect number of arguments.
+  
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(248,5): error MSB8066: Custom build for 'C:\@ripcode\fbx-sdk\fbx-exmaple\CMakeLists.txt' exited with code 1.

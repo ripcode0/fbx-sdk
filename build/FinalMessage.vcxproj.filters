@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\@ripcode\fbx-sdk\build\CMakeFiles\87ef64628cb4a9b8e2291df780fc3088\FinalMessage.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\@ripcode\fbx-sdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\@ripcode\fbx-sdk\build\CMakeFiles\FinalMessage" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{35B4184E-7EF0-3BF5-96BC-D3143B2FA34A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
